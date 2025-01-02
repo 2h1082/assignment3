@@ -1,9 +1,7 @@
-#define _CRTDBG_MAP_ALLOC
-#include <stdlib.h>
-#include <crtdbg.h>
 #include <algorithm>
 #include <cstring>
 #include <iostream>
+
 using namespace std;
 
 template <typename T>
@@ -35,7 +33,6 @@ public:
     }
     ~SimpleVector(){ 
         delete[] data;
-        _CrtDumpMemoryLeaks(); //check memory leaks
     }
     void push_back(const T& value){
         if(currentSize==currentCapacity){ //Full

@@ -14,7 +14,7 @@ int main(){
     cout<<v.size()<<" "<<v.capacity()<<endl;
     cout<<"v(int vector): ";
     v.printData();
-    v.resize(15);
+    v.resize(20);
     cout<<"resized v: ";
     cout<<v.size()<<" "<<v.capacity()<<endl;
     
@@ -42,5 +42,6 @@ int main(){
     cout<<"updated dup(pop_back): ";
     dup.printData();
     cout<<dup.size()<<" "<<dup.capacity()<<endl;
+
     return 0;
 }
