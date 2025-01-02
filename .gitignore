@@ -34,3 +34,7 @@
 .vs
 *.vcxproj.*
 *.vcxproj
+*.sln
+SimpleVector/
+x64/
+
